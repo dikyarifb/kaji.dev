@@ -1,0 +1,186 @@
+
+/* mobile */
+@media only screen and (max-width: 400px) {
+	.screen .middle-sm .about-right{
+		padding: 15px !important;
+	}
+	.navigation{
+		padding-left: 15px !important;
+	}
+	#location{
+		margin-top: 220px !important;
+	}
+	#brand .brand{
+		margin-left: 20px
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	h1{
+		font-size: 22px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.screen .middle-sm .arrow-bottom{
+		display: none;
+	}
+	#btn-nav:hover{
+		outline: none !important; 
+	}
+	.nav-mobile-expand{
+
+		background-color: #ea534a;
+		opacity: 0.9;
+	}
+	.nav-mobile-expand li{
+		margin: 15px 0;
+		width: 100%;
+
+	}
+	.nav-mobile-expand li a:hover{
+		color: grey;
+	}
+	.nav-mobile-expand li a{
+		color: white;
+		font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+
+	}
+	.nav-mobile-expand li a span{
+		font-size: 30px;
+		font-weight: bold;
+		margin-right:1px;
+		font-family: "Alphma"
+	}
+	.screen .middle-sm .about-right h1 {
+		font-size: 22px;
+	}
+	.navigation{
+		position: absolute;
+		width: 100%;		
+		background-color: white;
+		left: 0 !important
+	}
+	.navigation .fa{
+		display: inline-block;
+		position: absolute;
+		right: 25px;
+		color: #ea534a ;
+		top: 37px;
+		font-size: 20px;
+		background-color: transparent;
+		border:0;
+		box-sizing: initial !important;
+		transition: font-size 0.2s ease;
+	}
+	.screen-2 .middle-sm {
+    display: block;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+ }
+	.navigation .fa:hover{
+		font-size: 23px;
+	}
+	.brand{
+		float: left;
+	}
+	.nav-anchor{
+		display: none;
+	}
+	.screen .middle-sm .about-right{
+		padding-left: 25px;
+	}
+	.screen .middle-sm .about-right h2{
+		font-size: 24px;
+	}
+	.screen .middle-sm .left{
+		width: 100%;
+	}
+	.screen-2 .middle-sm .left {
+    	max-width: 100%;
+    	padding: 15px;
+	}
+	.screen-2 .middle-sm .right {
+    	max-width: 100%;
+    	padding: 0 25px;
+    	margin-left: 20px;
+	}
+
+	.screen .middle-sm .right{
+		width: 100%;
+	}
+	.screen-2 .col-xs-12{
+
+	}
+	.screen-3{
+		height: auto;
+		background-size: 100%
+	}
+	.screen-3 .middle-sm{
+		height: auto;
+	}
+	.screen .middle-sm .Location h1 {
+		line-height: 35px;
+	}
+	.onepage-wrapper .screen-3 {
+	    width: 100%;
+	    height: 600px !important;
+	    background-size: 95%;
+	    margin: 150px 0px;
+	    padding: 20px !important;
+	}
+	.screen .middle-sm .process-left ul li{
+		margin-bottom: 15px;
+	}
+	.screen-4{
+		background: linear-gradient(-18deg, #f8f8f8 50%, #ffffff 50%);
+	}
+	.screen-4 input, .screen-4 textarea{
+		background-color: transparent;
+	}
+	.screen-4 .middle-sm {
+	    display: block;
+	    align-items: left;
+	    justify-content: left;
+	    width: 100%;
+	    height: 100vh;
+	    flex-direction: row;
+	    padding: 40px;
+	    margin-bottom: 40px;
+ }
+	.navigation{
+		padding-left: 15px !important;
+	}
+	
+	section .col-job-detail .panel{
+		padding: 0 ;
+	}
+}
+
+
+/* up to tablets */
+@media only screen and (max-width: 991px) {
+
+	.brand-desc{
+		display: none;
+	}
+	.screen .middle-sm .about-right {
+    	padding: 60px;	}
+	.screen .middle-sm .process-right {
+    height: 55vh;
+}
+	.screen-2 h1{
+		font-size: 28px;
+	}
+	.screen-4{
+		background: linear-gradient(-18deg, #f8f8f8 50%, #ffffff 50%);
+	}
+
+
+
+}
